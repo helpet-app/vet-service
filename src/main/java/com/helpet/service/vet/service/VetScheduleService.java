@@ -52,7 +52,6 @@ public class VetScheduleService {
                                                              .stream()
                                                              .collect(Collectors.toMap(TimeSlot::getId, timeSlot -> timeSlot));
 
-
         List<VetScheduleSlot> newVetScheduleSlots = scheduleSlotsInfo.getScheduleSlots()
                                                                      .stream()
                                                                      .map(scheduleSlot -> VetScheduleSlot.builder()
