@@ -10,17 +10,17 @@ public class VetScheduleSlotResponse {
     
     private TimeSlotResponse timeSlot;
     
-    private Boolean monday = false;
+    private Boolean monday;
     
-    private Boolean tuesday = false;
+    private Boolean tuesday;
     
-    private Boolean wednesday = false;
+    private Boolean wednesday;
     
-    private Boolean thursday = false;
+    private Boolean thursday;
     
-    private Boolean friday = false;
+    private Boolean friday;
     
-    private Boolean saturday = false;
+    private Boolean saturday;
     
-    private Boolean sunday = false;
+    private Boolean sunday;
 }
